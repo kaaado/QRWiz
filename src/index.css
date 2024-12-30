@@ -1,0 +1,27 @@
+:root{
+ --background: rgba(0,116,255,1);
+ --background-start:rgba(17,56,87,1);
+ --background-end:rgba(9,9,121,1);
+ --background-tail:rgba(0,116,255,1);
+ --background-btn:rgba(0,116,255,0.8);
+ --bg-dark:#000;
+ --bg-border:#ccc;
+ --text-color2:#222; 
+ --text-color2:#333333;
+ --background-input:#FFFFFF;
+ --accent-succes:#4A90E2;
+ --accent-warning:#F07167;
+ --box-shadow:rgba(0,0,0,0.75);
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	background: var(--background);
+background: linear-gradient(90deg,var(--background-start) 0%, var(--background-end) 28%, var(--background-tail) 100%);
+  font-family: Arial, sans-serif;
+}
