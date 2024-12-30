@@ -15,7 +15,6 @@ QRWiz is a web-based QR code generator that allows users to create custom QR cod
 - **CSS**: For styling the web pages .
 - **JavaScript (Vite)**: The application is built with Vite for a dynamic user experience.
 - **QR Code Generation Libraries**: Uses JavaScript libraries for creating QR codes .
-- **Favicon**: A custom logo is included as the favicon.
 
 ## Installation
 
