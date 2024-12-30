@@ -12,19 +12,38 @@ QRWiz is a web-based QR code generator that allows users to create custom QR cod
 ## Technologies Used
 
 - **HTML5**: The markup language used for structuring the web pages.
-- **CSS**: For styling the web pages (external styles are assumed but not included in this specific code).
-- **JavaScript (React)**: The application is built with React for a dynamic user experience.
-- **QR Code Generation Libraries**: Uses JavaScript libraries for creating QR codes (assumed to be implemented in the `main.jsx` file).
+- **CSS**: For styling the web pages .
+- **JavaScript (Vite)**: The application is built with Vite for a dynamic user experience.
+- **QR Code Generation Libraries**: Uses JavaScript libraries for creating QR codes .
 - **Favicon**: A custom logo is included as the favicon.
 
 ## Installation
 
 To run this project locally, follow these steps:
 
-2. **Navigate to the Project Directory:**
-   ```bash
-  cd QRWiz
-
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/YacineKermame/QRWiz.git
+   
+2. **Navigate to the Project Directory:**
+   ```bash
+    cd QRWiz
+
+3. **Install Dependencies:**
+   ```bash
+   npm install
+
+4. **Start the Application:**
+   ```bash
+    npm run dev
+
+## How to Use
+
+1. **Access the Website:** Open the application in your browser at http://localhost:5173 after starting the server.
+
+2. **Generate QR Codes:** Enter the text or URL you want to encode into the QR code, and click on the "Generate" button.
+
+3. **Customization:** Users can customize the QR code's design (e.g., color, background color) that will appear in the UI.
+
+4. **Download QR Code:** After generating the QR code, download it as an image file for use in your projects or materials.
+
