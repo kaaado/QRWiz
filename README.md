@@ -22,7 +22,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/YacineKermame/QRWiz.git
+   git clone https://github.com/kaaado/QRWiz.git
    
 2. **Navigate to the Project Directory:**
    ```bash
