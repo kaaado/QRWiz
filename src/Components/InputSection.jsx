@@ -28,6 +28,7 @@ const InputSection = ({ onUpdate }) => {
       <textarea
         id="textarea-content"
         rows="7"
+        minLength="2000"
         placeholder="Enter your Content..."
         value={content}
         onChange={(e) => setContent(e.target.value)}
